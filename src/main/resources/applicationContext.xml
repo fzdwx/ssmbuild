@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+@author likeLove
+@time 2020 - 07 - 31  16:28
+-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+       ">
+    <!--注解驱动 -->
+    <import resource="springDao.xml"/>
+    <import resource="springService.xml"/>
+    <import resource="springMvc.xml"/>
+</beans>
